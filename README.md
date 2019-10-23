@@ -1,20 +1,14 @@
 # julab
 
+single page web app using nodejs, express and postgres
 
 ## Development Requirments
-
 
 ### System
 
 - [Node.js](https://nodejs.org)
 - [npm](https://www.npmjs.com)
 - [PostgreSQL](https://www.postgresql.org)
-
-
-### npm
-
-- [nodemon](https://nodemon.io)
-
 
 ### PostgreSQL conf
 
@@ -32,4 +26,4 @@
 
 ### Commands
 
-- `nodemon --inspect julab.js`
+- `node julab.js`
