@@ -1,0 +1,24 @@
+{
+  "name": "julab",
+  "version": "0.0.1",
+  "main": "julab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "majudhu",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {},
+  "description": "single page web app using express and postgres",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majudhu/julab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/majudhu/julab/issues"
+  },
+  "homepage": "https://github.com/majudhu/julab#readme"
+}
