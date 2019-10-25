@@ -11,7 +11,11 @@ async function req(arg1, arg2, arg3) {
         headers: { 'Content-Type': 'application/json' },
         body: (typeof arg2 === 'object' ? JSON.stringify(arg2) : JSON.stringify(arg3))
     });
-    return { status: res.status, res: await res.json() };
+    try {
+        return { status: res.status, res: await res.json() };
+    } catch (e) {
+        return ({ status: res.status , res: null});
+    }
 }
 
 document.getElementById('product_add').addEventListener('click', async () => {
