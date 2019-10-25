@@ -14,7 +14,7 @@ async function req(arg1, arg2, arg3) {
     try {
         return { status: res.status, res: await res.json() };
     } catch (e) {
-        return ({ status: res.status , res: null});
+        return { status: res.status , res: null};
     }
 }
 
